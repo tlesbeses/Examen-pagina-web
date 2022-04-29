@@ -319,15 +319,8 @@ border-radius: 20px;
     height: 40px;
     left: 251px;
     top: 2334px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 47px;
     margin: 0;
-    margin-left: 25%;
-    color: #6E29A9;
+    margin-left: 16%;
 }
 
 .loremfother{
@@ -342,5 +335,5 @@ border-radius: 20px;
     line-height: 40px;
     color: #FFFFFF;
     margin: 0;
-    margin-left: 27.5%;
+    margin-left: 44.5%;
 }

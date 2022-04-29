@@ -1,0 +1,140 @@
+.contenedor{
+    position: relative;
+    width: 1512px;
+    height: 2447px;
+    background: #FFFFFF;
+}
+
+.navegation{
+    position: absolute;
+    width: 1512px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    align-items:  center;
+}
+.logo{
+    position: absolute;
+    width: 193px;
+    height: 47.85px;
+    left: 197px;
+    top: 24.15px;  
+}
+.reactangulo{
+    width: 124px;
+    height: 36px;
+    left: 876px;
+    top: 34px;
+    background: #F5F5F5;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reactangulo ul{
+    
+    background: #F5F5F5;
+}
+.links{
+    position: absolute;
+    width: 439px;
+    height: 36px;
+    left: 876px;
+    top: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.links ul{
+    padding: 0;
+    margin: 0;
+}
+.inicio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #6E29A9;
+    list-style: none;
+    text-decoration: none;
+    
+    
+   
+}
+.second{
+    width: 91px;
+    height: 23px;
+    left: 1046px;
+    top: 41px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #01A1E9;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.divimagen{
+    position: absolute;
+    width: 1512px;
+    height: 566px;
+    left: 0px;
+    top: 100px;
+    background: url(/img/fondoimg.svg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo{
+    
+    width: 601px;
+    height: 226px;
+    left: 197px;
+    top: 256px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    margin: 0;
+    color: #FFFFFF;
+    margin-left: 197px;
+}
+
+.titulo2{
+    position: absolute;
+    width: 378px;
+    height: 75px;
+    left: 567px;
+    top: 716px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #6E29A9;
+    margin: 0;
+}
+.imgestaditisca{
+    position: absolute;
+width: 554px;
+height: 389px;
+left: 197px;
+top: 841px;
+
+background: url(/img/imgestadistica.svg);
+border-radius: 20px;
+}

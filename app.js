@@ -6,13 +6,26 @@ function calcular(){
 
     var INNS = Salario*0.07
     var INNS_variable  = document.getElementById("resultado_INSS")
-    INNS_variable.innerHTML = INNS
+    INNS_variable.innerHTML = INNS.toFixed(2)
 
     var SalarioN = Salario-INNS
     var SalarioNeto = document.getElementById("salario_neto")
     SalarioNeto.innerHTML = SalarioN;
 
-    var salarioAnual = Salario*12
+    var salarioAnual = SalarioN*12
+    var InpuestoSR = document.getElementById("resultado_IR")
+    var salarioTCD = document.getElementById("resultado_deduccioens")
+    var calculo
+    if (salarioAnual<=100000) {
+        calculo = 0
+        salarioTCD.innerHTML = SalarioN-calculo
+    }  else if(salarioAnual>100000 || salarioAnual>200000 ) {
+        calculo = ((salarioAnual-100000)*0.15)/12
+        InpuestoSR.innerHTML = calculo;
+        salarioTCD.innerHTML = SalarioN-calculo
+    }else{
+
+    }
 
 
 }

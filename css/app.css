@@ -289,6 +289,58 @@ border-radius: 20px;
     margin: 0;
     margin-left: 5%;
     margin-bottom: 10%;
-    color: #FFFFFF;}
+    color: #FFFFFF;
     
+}
+
+.fot{
+    position: relative;
+    width: 1512px;
+    height: 189px;
+    left: 0px;
+    top: 2258px;
+    display: flex;
+    justify-content: flex-start;
+    background: #1B314F;
+    align-items: center;
+}
+.contenedoraguito{
+
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 251px;
+}
+
+.aguito{
+    
+    width: 153px;
+    height: 40px;
+    left: 251px;
+    top: 2334px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 0;
+    margin-left: 25%;
+    color: #6E29A9;
+}
+
+.loremfother{
+    width: 245px;
+    height: 40px;
+    left: 1070px;
+    top: 2334px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: 27.5%;
 }
